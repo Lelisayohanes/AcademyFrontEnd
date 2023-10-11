@@ -9,10 +9,10 @@ function Menu() {
   const [showScheduleItems, setShowScheduleItems] = useState(false);
 
   return (
-    <div className='m-[1.5rem] rounded-r-2xl'>
+    <div className='m-[1.5rem] rounded-r-2xl font-primary'>
       <div className='flex flex-col gap-[1em]'>
         <a className='flex text-[1.4rem] gap-[0.5em] items-center' href='/'><PiSquaresFourDuotone />Dashboard</a>
-        <a className='flex text-[1.4rem] gap-[0.5em] items-center' href='/courses' ><IoBookOutline />Courses</a>
+        {/* <a className='flex text-[1.4rem] gap-[0.5em] items-center' href='/courses' ><IoBookOutline />Courses</a> */}
         <a className='flex text-[1.4rem] gap-[0.5em] items-center' href='/users' ><FaRegCircleUser />Users</a>
         <a className='flex text-[1.4rem] gap-[0.5em] items-center' href='/students' ><PiStudentLight />Students</a>
         <a className='flex text-[1.4rem] gap-[0.5em] items-center' href='/teachers'><GiTeacher />Instructors</a>

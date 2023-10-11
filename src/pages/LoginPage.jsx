@@ -3,7 +3,7 @@ import LoginComponents from '../components/LoginComponent'
 
 function LoginPage() {
   return (
-    <div>
+    <div className='font-primary'>
       <LoginComponents/>
     </div>
   )

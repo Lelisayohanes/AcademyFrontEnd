@@ -9,7 +9,7 @@ import StaffStatics from '../components/StaffStatics'
 function Dashboard() {
   return (
 
-    <div className='flex'>
+    <div className='flex font-primary'>
       <div className='bg-[#1C2434] fixed top-0 left-0 w-[18rem] hidden md:flex h-screen overflow-y-auto z-10'>
         <DesktopMenu />
       </div>
@@ -19,11 +19,11 @@ function Dashboard() {
         </div>
         <div className='md:ml-[2rem] mt-20 overflow-y-auto h-screen bg-blue-500 pt-4 pl-4 '>
           <Cards />
-          <div className='flex items-start'>
-            <div className='w-65 flex-grow'>
+          <div className='flex items-start flex-col gap-[1em] md:gap-[0] md:flex-row '>
+            <div className='w-full md:w-65 flex-grow'>
               <StaffStatics />
             </div>
-            <div className='w-35 flex-shrink'>
+            <div className='w-[100%] flex-grow md:w-35 md:flex-shrink '>
               <Chat />
             </div>
           </div>

@@ -9,13 +9,14 @@ import ProfilePage from './pages/ProfilePage';
 import UserPage from './pages/UserPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
+import AccountSettingPage from './pages/AccountSettingPage';
 function App() {
   return (
     <Router>
-      <div className="">
+      <div className="font-primary">
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/courses" element={<CoursesPage />} />
+          {/* <Route path="/courses" element={<CoursesPage />} /> */}
           <Route path="/students" element={<StudentPage />} />
           <Route path="/teachers" element={<TeacherPage />} />
           <Route path="/portifolio" element={<CoursesPage />} />
@@ -26,6 +27,7 @@ function App() {
           <Route path="/users" element={<UserPage />} />
           <Route path='/login' element={<LoginPage />} />
           <Route path='/signup' element={<SignupPage />} />
+          <Route path='/accountsetting' element={<AccountSettingPage />} />
         </Routes>
       </div>
     </Router>

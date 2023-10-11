@@ -66,7 +66,7 @@ function InnerHeader() {
                   src="../../src/assets/images/user/user-01.png"
                   alt="User Image"
                 />
-                <IoChevronDownSharp className='text-[1.4em] mr-[1.4em]'/>
+                <IoChevronDownSharp className='text-[1.4em] lg:mr-[1em]'/>
               </button>
               {userMenuOpen && (
                 <div className="absolute right-0 mt-[1rem] w-[15rem] bg-white border border-gray-300 shadow-md ">
@@ -84,16 +84,13 @@ function InnerHeader() {
                       </a>
                     </li>
                     <li>
-                      <button
+                      <a
                         className="block px-4 py-2 text-[1.2rem] text-blue-500 hover:underline flex items-center"
-                        onClick={() => {
-                          // Handle Account Settings action
-                          // You can navigate to the account settings page here
-                        }}
+                        href='/accountsetting'
                       >
                         <IoSettingsOutline className='inline-block text-xl mr-2' />
                         Account Settings
-                      </button>
+                      </a>
                     </li>
                     <li>
                       <a

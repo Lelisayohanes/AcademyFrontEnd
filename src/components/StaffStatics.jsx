@@ -9,14 +9,9 @@ function StaffStatics() {
                         <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                             Name
                         </th>
+                        
                         <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                            Email
-                        </th>
-                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                            Role
-                        </th>
-                        <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                            Status
+                            percent
                         </th>
                         
                     </tr>
@@ -28,15 +23,9 @@ function StaffStatics() {
                             John Doe 
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap">
-                            john@example.com
+                            14%
                         </td>
-                        <td class="px-6 py-4 whitespace-nowrap">
-                            Admin
-                        </td>
-                        <td class="px-6 py-4 whitespace-nowrap">
-                            Active
-                        </td>
-                        
+                                                
                     </tr>
 
                 </tbody>
