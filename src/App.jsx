@@ -5,6 +5,10 @@ import Dashboard from './pages/Dashboard';
 import CoursesPage from './pages/CoursesPage';
 import StudentPage from './pages/StudentPage';
 import TeacherPage from './pages/TeacherPage';
+import ProfilePage from './pages/ProfilePage';
+import UserPage from './pages/UserPage';
+import LoginPage from './pages/LoginPage';
+import SignupPage from './pages/SignupPage';
 function App() {
   return (
     <Router>
@@ -18,6 +22,10 @@ function App() {
           <Route path="/schedules" element={<CoursesPage />} />
           <Route path="/setting" element={<CoursesPage />} />
           <Route path="/help" element={<CoursesPage />} />
+          <Route path='/profile' element={<ProfilePage />} />
+          <Route path="/users" element={<UserPage />} />
+          <Route path='/login' element={<LoginPage />} />
+          <Route path='/signup' element={<SignupPage />} />
         </Routes>
       </div>
     </Router>

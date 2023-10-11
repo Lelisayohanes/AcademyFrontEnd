@@ -3,10 +3,11 @@ import Card from './Card'
 
 function Cards() {
   return (
-    <div className=' w-[100%] '>
+    <div className=' w-[100%] flex flex-wrap md:flex-nowrap '>
       <Card/>
       <Card/>
-      <p className='h-full'></p>
+      <Card/>
+      <Card/>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import ChatUser from './ChatUser'
 
 function Chat() {
   return (
-    <div className='m-[1em] shadow-md'>
+    <div className='m-[1em] mt-0 shadow-md'>
       <ChatUser/>
       <ChatUser/>
       <ChatUser/>

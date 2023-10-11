@@ -2,8 +2,9 @@ import React from 'react';
 import InnerHeader from '../components/InnerHeader';
 import DesktopMenu from '../components/DesktopMenu';
 import Student from '../components/Student';
+import User from '../components/User';
 
-function StudentPage() {
+function UserPage() {
   const courses = [
     // Define your course data here
   ];
@@ -18,11 +19,11 @@ function StudentPage() {
           <InnerHeader />
         </div>
         <div className='ml-[1em] mt-20 overflow-y-auto h-screen bg-blue-500 pt-4 pl-4'>
-          <Student/>
+          <User/>
         </div>
       </div>
     </div>
   );
 }
 
-export default StudentPage;
+export default UserPage;
